@@ -222,6 +222,8 @@ main {
   font-weight: 300;
   line-height: 19.36px;
   text-align: left;
+  position: relative;
+  z-index: 2;
 }
 
 .half-honeycomb {
@@ -551,8 +553,9 @@ footer > img {
 .footer-navigation {
   display: flex;
   justify-content: space-between;
-  /* gap: 200px; */
   width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .footer-nav-part {

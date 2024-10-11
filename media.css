@@ -240,7 +240,7 @@
 
   .project-title {
     position: absolute;
-    bottom: 470px;
+    bottom: 400px;
     margin-top: 0;
     font-size: 24px;
     font-weight: 700;
@@ -293,7 +293,7 @@
   }
 
   .statistics {
-    width: 166px;
+    width: 160px;
     padding-left: 10px;
     height: 110px;
     border-radius: 5.21px;
@@ -487,7 +487,8 @@
 
   .about-us-title {
     margin-top: 91px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
   }
 
   .contacts-title {

@@ -219,6 +219,7 @@
 
   main {
     padding: 0 20px;
+    padding-top: 120px;
   }
 
   .nav-box {
@@ -239,7 +240,7 @@
 
   .project-title {
     position: absolute;
-    bottom: 500px;
+    bottom: 470px;
     margin-top: 0;
     font-size: 24px;
     font-weight: 700;

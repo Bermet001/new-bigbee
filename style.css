@@ -550,7 +550,9 @@ footer > img {
 
 .footer-navigation {
   display: flex;
-  gap: 200px;
+  justify-content: space-between;
+  /* gap: 200px; */
+  width: 100%;
 }
 
 .footer-nav-part {
@@ -586,6 +588,7 @@ footer > img {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 300px;
 }
 
 .last-block {
@@ -678,4 +681,10 @@ footer > img {
 
 .contacts-title {
   margin-bottom: 32px;
+}
+
+.footer-nav-second {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }

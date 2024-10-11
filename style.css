@@ -20,14 +20,13 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
 }
 
-.handshake-header {
-  position: absolute;
-  left: 80px;
-  top: 200px;
-  width: 360px;
-}
 .nav-box {
   display: flex;
   gap: 15px;
@@ -95,7 +94,7 @@ header {
 
 .discuss-button {
   position: relative;
-  z-index: 100;
+  z-index: 10;
   bottom: 100px;
   text-align: center;
   background-color: #f5c423;

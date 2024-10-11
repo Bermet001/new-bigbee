@@ -29,13 +29,6 @@
     height: 457.36px;
   }
 
-  .handshake-header {
-    width: 354.8px;
-    height: 282.07px;
-    top: 175px;
-    left: 50.8px;
-  }
-
   .project-info {
     justify-content: space-between;
   }
@@ -260,13 +253,6 @@
     width: 320.8px;
     height: 380.38px;
     border: 1.59px;
-  }
-
-  .handshake-header {
-    width: 270.8px;
-    height: 182.07px;
-    top: 321.49px;
-    left: 25.13px;
   }
 
   .project-description {

@@ -178,6 +178,10 @@
     cursor: pointer;
   }
 
+  .nav-box {
+    display: none;
+  }
+
   .title {
     font-size: 22px;
     font-weight: 700;
@@ -186,7 +190,6 @@
   }
 
   .mobile-nav {
-    display: block;
     color: black;
   }
   .mobile {
@@ -528,6 +531,7 @@
   }
 
   .footer-nav-second {
-    display: block;
+    flex-direction: column;
+    gap: 10px;
   }
 }

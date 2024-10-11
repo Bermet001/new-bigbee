@@ -683,6 +683,10 @@ footer > img {
   margin-bottom: 32px;
 }
 
+.mobile-nav-box {
+  display: none;
+}
+
 .footer-nav-second {
   display: flex;
   justify-content: space-between;

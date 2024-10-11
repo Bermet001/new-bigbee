@@ -1,0 +1,526 @@
+@media (min-width: 0) and (max-width: 1280px) {
+  .slide {
+    width: 100%;
+  }
+
+  .slide-arrow {
+    left: 1150px;
+  }
+
+  header {
+    padding: 32px 50px;
+  }
+  .project-title {
+    font-size: 52px;
+    line-height: 52.84px;
+    width: 555.5px;
+    height: 106px;
+  }
+
+  .project-description {
+    width: 478.84px;
+    height: 66px;
+    font-size: 20px;
+    line-height: 21.78px;
+  }
+
+  .project-image {
+    width: 398.8px;
+    height: 457.36px;
+  }
+
+  .handshake-header {
+    width: 354.8px;
+    height: 282.07px;
+    top: 175px;
+    left: 50.8px;
+  }
+
+  .project-info {
+    justify-content: space-between;
+  }
+
+  .discuss-button {
+    width: 1180.49px;
+    height: 36.62px;
+    border-radius: 6.1px;
+    font-size: 16px;
+    line-height: 9px;
+    bottom: 70px;
+  }
+
+  main {
+    padding: 0 50px;
+  }
+
+  .advantages {
+    width: 380px;
+    padding: 5px;
+    height: 263px;
+    border-radius: 6.1px;
+  }
+
+  .advantages > p {
+    font-size: 17px;
+    line-height: 25.13px;
+    width: 370px;
+    height: 175px;
+  }
+  /* second */
+
+  .servise {
+    min-width: 280px;
+  }
+
+  .title-container {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .vector {
+    margin-left: 80px;
+  }
+
+  .servise {
+    width: 280px;
+  }
+
+  .half-honeycomb {
+    left: 195px;
+  }
+
+  /* block */
+
+  .welcome-section {
+    padding: 10px 0;
+  }
+
+  .welcome-title {
+    font-family: Geometria;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 520px;
+    margin-bottom: 2px;
+    height: 100%;
+    width: 660px;
+    margin-top: 90px;
+  }
+
+  .convenience-item {
+    width: 280px;
+  }
+
+  .convenience-description {
+    width: 100%;
+    font-size: 15px;
+    height: 150px;
+  }
+
+  /* statistics */
+
+  .statistics {
+    width: 280px;
+  }
+
+  /* team */
+
+  .cart {
+    width: 380px;
+    border-radius: 6.12px;
+  }
+
+  .name {
+    width: 300px;
+  }
+
+  .teammate-image {
+    width: 350px;
+    border-radius: 6.12px;
+  }
+
+  /* call */
+
+  .form-input {
+    width: 730px;
+    height: 60px;
+    border-radius: 6.12px;
+  }
+
+  .honeycomb-big {
+    width: 450px;
+    height: 550px;
+  }
+
+  .phone-call {
+    top: 100px;
+    right: 130px;
+    width: 300px;
+    height: 400px;
+  }
+
+  /* contacts */
+
+  .contact-container > h2 {
+    margin-bottom: 0px;
+  }
+
+  .address {
+    width: 280px;
+  }
+
+  /* footer */
+  .footer-navigation {
+    gap: 132px;
+  }
+
+  .big-text {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 393px) {
+  .mobile-burger {
+    display: block;
+    flex-direction: row-reverse;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.68px;
+    text-align: left;
+  }
+
+  .mobile-nav {
+    display: block;
+    color: black;
+  }
+  .mobile {
+    padding-top: 30px;
+  }
+
+  .mobile-nav-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 100%;
+  }
+
+  .mobile-nav-box > p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+  header {
+    padding: 40px 20px 0px 20px;
+  }
+
+  main {
+    padding: 0 20px;
+  }
+
+  .nav-box {
+    display: none;
+  }
+
+  .discuss-button {
+    position: static;
+    width: 353px;
+    height: 36.62px;
+    margin-top: 20px;
+    border-radius: 6.1px;
+  }
+  .project-info {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-title {
+    position: absolute;
+    bottom: 500px;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.19px;
+    width: 271.74px;
+    height: 60px;
+  }
+
+  .project-image {
+    margin-top: 85px;
+    width: 320.8px;
+    height: 380.38px;
+    border: 1.59px;
+  }
+
+  .handshake-header {
+    width: 270.8px;
+    height: 182.07px;
+    top: 321.49px;
+    left: 25.13px;
+  }
+
+  .project-description {
+    width: 370.03px;
+    height: 88px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.78px;
+  }
+
+  .advantages-box-mobile {
+    width: 90vw;
+    overflow-x: auto;
+  }
+
+  .business-convenience {
+    flex-direction: column;
+    margin-top: 33px;
+  }
+
+  .advantages-container {
+    margin-bottom: 0;
+  }
+
+  .welcome-title {
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.13px;
+    text-align: left;
+    width: 362.88px;
+    height: 120px;
+  }
+
+  .convenience-item {
+    width: 96%;
+  }
+
+  .statistics {
+    width: 166px;
+    padding-left: 10px;
+    height: 110px;
+    border-radius: 5.21px;
+  }
+
+  .numbers {
+    line-height: 60px;
+    font-size: 60px;
+  }
+
+  /* team */
+  .cart {
+    width: 355px;
+  }
+
+  .name {
+    right: 13px;
+  }
+
+  /* fasdfas */
+
+  .contact-info {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .address {
+    width: 352px;
+  }
+
+  /*  */
+
+  /*  service */
+  .service-box {
+    flex-wrap: nowrap;
+  }
+
+  .title-container {
+    flex-direction: column;
+  }
+  .vector {
+    width: 100%;
+    margin-left: 0px;
+    transform: rotate(180deg);
+    transform: scaleY(-1);
+  }
+
+  .second-block-adaptiv {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .advantages-icons-box {
+    width: 1200px;
+  }
+
+  /*  */
+
+  .form-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.68px;
+    text-align: left;
+    color: #f5c423;
+  }
+  .form-container {
+    margin-left: 10px;
+  }
+
+  .form-description {
+    opacity: 1;
+  }
+
+  .honeycomb-big {
+    display: none;
+  }
+
+  .phone-call {
+    display: none;
+  }
+
+  .form-input {
+    width: 96%;
+    height: 50px;
+  }
+
+  .submit-button {
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    width: 96%;
+  }
+
+  /* footer */
+  footer > img {
+    display: none;
+  }
+
+  footer {
+    padding: 20px;
+    height: 550px;
+    position: relative;
+  }
+
+  .main-footer-container {
+    gap: 140px;
+  }
+
+  .footer-first-part {
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .mobile-honeycumb {
+    display: block;
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    left: 90px;
+    height: 450px;
+    opacity: 0.3;
+  }
+
+  .footer-navigation {
+    gap: 0;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .last-block-footer {
+    gap: 40px;
+  }
+
+  .footer-nav-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .bermet {
+    gap: 5px;
+  }
+
+  .footer-nav > a {
+    font-size: 13px;
+  }
+
+  .big-text {
+    font-size: 22px;
+  }
+  .last-block {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .last-block > p {
+    font-size: 13px;
+  }
+
+  /* slide */
+
+  .slider-container > img {
+    position: static;
+    width: 20px;
+    height: 20px;
+    height: 100%;
+    margin: auto 0;
+  }
+
+  .slide-arrow {
+    left: 150px;
+  }
+
+  .cases-btn {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .first-title {
+    margin-top: 130px;
+    margin-bottom: 0;
+  }
+
+  .service-title {
+    margin-top: 160px;
+  }
+
+  .about-us-title {
+    margin-top: 91px;
+    margin-bottom: 0;
+  }
+
+  .contacts-title {
+    margin-bottom: 20px !important;
+    margin-left: 0;
+  }
+
+  .carts-container {
+    gap: 70px;
+  }
+
+  .name {
+    padding-left: 10px;
+  }
+
+  .cart {
+    height: 350px;
+  }
+
+  .title {
+    align-self: start;
+  }
+}

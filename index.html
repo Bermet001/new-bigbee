@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+
+    <script>
+      function toggleSlider() {
+        document.getElementById("mobile").style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById("mobile").style.display = "none";
+        console.log("hello");
+      }
+
+      function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: "smooth" });
+        closeModal();
+      }
+    </script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="mobile-burger"
+        onclick="toggleSlider()"
+        src="./assets/icons/menu.svg"
+        alt="burger"
+      />
+
+      <img class="logo" src="./assets/icons/black-icon-begbee.svg" alt="" />
+
+      <div class="nav-box">
+        <button class="navigation-bnt" onclick="scrollToSection('about-us')">
+          О нас
+        </button>
+        <button class="navigation-bnt" onclick="scrollToSection('cases')">
+          Кейсы
+        </button>
+        <button class="navigation-bnt" onclick="scrollToSection('team')">
+          Команда
+        </button>
+        <button class="navigation-bnt" onclick="scrollToSection('contacts')">
+          Контакты
+        </button>
+      </div>
+    </header>
+    <!-- mobile -->
+
+    <div class="header-slider" id="mobile">
+      <img onclick="closeModal()" src="./assets/icons/menu.svg" alt="go back" />
+
+      <div class="mobile-nav-box">
+        <p class="mobile-nav" onclick="scrollToSection('about-us')">О нас</p>
+        <p class="mobile-nav" onclick="scrollToSection('cases')">Кейсы</p>
+        <p class="mobile-nav" onclick="scrollToSection('team')">Команда</p>
+        <p class="mobile-nav" onclick="scrollToSection('contacts')">Контакты</p>
+      </div>
+    </div>
+
+    <!-- first block -->
+    <main>
+      <section class="project-discussion">
+        <div class="project-info">
+          <img
+            class="project-image"
+            src="./assets/images/light-honeycomb.png"
+            alt="honeycomb"
+          />
+          <img
+            class="handshake-header"
+            src="./assets/icons/handshake.svg"
+            alt=""
+          />
+
+          <div class="text-content">
+            <h2 class="project-title">
+              <span style="color: #f5c423"> big bee - </span>
+              бизнес платформа
+            </h2>
+
+            <p class="project-description">
+              Big Bee — бизнес-платформы, которая помогает компаниям переходить
+              и масштабироваться в цифровое пространство!
+            </p>
+          </div>
+        </div>
+
+        <button class="discuss-button">обсудить проект</button>
+      </section>
+
+      <section>
+        <div>
+          <h2 class="title first-title">Преимущества нашей компании</h2>
+
+          <div class="advantages-box-mobile">
+            <div class="advantages-icons-box">
+              <div class="honeycomb">
+                <img
+                  src="./assets/icons/first-advantage.svg"
+                  alt="advantages-icon"
+                />
+              </div>
+
+              <div class="honeycomb">
+                <img
+                  src="./assets/icons/third-advantage.svg"
+                  alt="advantages-icon"
+                />
+              </div>
+
+              <div class="honeycomb">
+                <img
+                  src="./assets/icons/second-advantage.svg"
+                  alt="advantages-icon"
+                />
+              </div>
+            </div>
+            <div class="advantages-container">
+              <div class="advantages">
+                <p>
+                  Запустите свой бизнес за 24 часа и начните зарабатывать уже
+                  сегодня! Мы не просто создаем интернет-магазины, мы помогаем
+                  вам достичь успеха. Обеспечиваем полную поддержку на всех
+                  этапах, от разработки до продвижения. Гарантируем рост ваших
+                  продаж!
+                </p>
+              </div>
+
+              <div class="advantages">
+                <p>
+                  BeeBoard: Бизнес-аналитика без лишних сложностей.Управляйте
+                  всем бизнесом из одной точки. Отслеживайте финансы, продажи,
+                  запасы и многое другое в режиме реального времени. Принимайте
+                  взвешенные решения на основе точных данных.
+                </p>
+              </div>
+
+              <div class="advantages">
+                <p>
+                  HoReCa - Поднимите продажи на новый уровень с нашим
+                  онлайн-меню. Наше интерактивное онлайн-меню не только упростит
+                  процесс заказа, но и поможет увеличить средний чек за счет
+                  персонализированных рекомендаций и апсейлов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- second -->
+      <section>
+        <div class="second-block-adaptiv" style="width: 1340px">
+          <div class="title-container">
+            <div>
+              <h2 style="text-align: start" class="service-title title">
+                наши услуги
+              </h2>
+
+              <img class="vector" src="./assets/images/vector.png" alt="" />
+            </div>
+
+            <div class="first-2block">
+              <div class="servise">
+                <img src="./assets/icons/black-and-white icon.svg" alt="" />
+                <p>
+                  Наша команда предлагает интуитивные и удобные IT-инструменты,
+                  которые решают задачи без лишней головной боли. Мы создаем
+                  решения, которые позволяют
+                </p>
+                <img
+                  class="half-honeycomb"
+                  src="./assets/images/half-honeycomb.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="servise">
+                <img src="./assets/icons/black-and-white icon.svg" alt="" />
+                <p>
+                  Наша команда предлагает интуитивные и удобные IT-инструменты,
+                  которые решают задачи без лишней головной боли. Мы создаем
+                  решения, которые позволяют
+                </p>
+                <img
+                  class="half-honeycomb"
+                  src="./assets/images/half-honeycomb.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="servise">
+              <img src="./assets/icons/black-and-white icon.svg" alt="" />
+              <p>
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют
+              </p>
+              <img
+                class="half-honeycomb"
+                src="./assets/images/half-honeycomb.png"
+                alt=""
+              />
+            </div>
+
+            <div class="servise">
+              <img src="./assets/icons/black-and-white icon.svg" alt="" />
+              <p>
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют
+              </p>
+              <img
+                class="half-honeycomb"
+                src="./assets/images/half-honeycomb.png"
+                alt=""
+              />
+            </div>
+
+            <div class="servise">
+              <img src="./assets/icons/black-and-white icon.svg" alt="" />
+              <p>
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют
+              </p>
+              <img
+                class="half-honeycomb"
+                src="./assets/images/half-honeycomb.png"
+                alt=""
+              />
+            </div>
+
+            <div class="servise">
+              <img src="./assets/icons/black-and-white icon.svg" alt="" />
+              <p>
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют
+              </p>
+              <img
+                class="half-honeycomb"
+                src="./assets/images/half-honeycomb.png"
+                alt=""
+              />
+            </div>
+
+            <div class="servise">
+              <img src="./assets/icons/black-and-white icon.svg" alt="" />
+              <p>
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют
+              </p>
+              <img
+                class="half-honeycomb"
+                src="./assets/images/half-honeycomb.png"
+                alt=""
+              />
+            </div>
+
+            <div class="servise">
+              <img src="./assets/icons/black-and-white icon.svg" alt="" />
+              <p>
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют
+              </p>
+              <img
+                class="half-honeycomb"
+                src="./assets/images/half-honeycomb.png"
+                alt=""
+              />
+            </div>
+
+            <div class="servise">
+              <img src="./assets/icons/black-and-white icon.svg" alt="" />
+              <p>
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют
+              </p>
+              <img
+                class="half-honeycomb"
+                src="./assets/images/half-honeycomb.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="welcome-section">
+        <div>
+          <h2 class="welcome-title">
+            Бизнес-платформа <span style="color: #f5c423"> BIGBEE </span>
+            предоставляет централизованное хранение всей информации о проектах,
+            что облегчает
+            <span style="color: #f5c423">доступ к данным</span>
+            и улучшает координацию между отделами.
+          </h2>
+
+          <div class="business-convenience">
+            <div class="convenience-item">
+              <p class="convenience-title">Удобство для вашего бизнеса!</p>
+
+              <img
+                class="convenience-image loudmouth"
+                src="./assets/icons/loudmouth.svg"
+                alt=""
+              />
+
+              <p class="convenience-description first-item">
+                Наша команда предлагает интуитивные и удобные IT-инструменты,
+                которые решают задачи без лишней головной боли. Мы создаем
+                решения, которые позволяют вашему бизнесу работать без перебоев
+              </p>
+            </div>
+
+            <div class="convenience-item">
+              <p class="convenience-title">Гибкость и адаптивность!</p>
+              <img
+                class="convenience-image"
+                src="./assets/icons/hands.svg"
+                alt=""
+              />
+              <p class="convenience-description">
+                Мы понимаем, что каждый бизнес уникален, и предлагаем гибкие
+                решения, которые подстраиваются под ваши цели и задачи.
+                Независимо от масштаба и сложности проекта
+              </p>
+            </div>
+
+            <div class="convenience-item">
+              <p class="convenience-title">Простота в каждом решении!</p>
+              <img
+                class="convenience-image"
+                src="./assets/icons/laptop.svg"
+                alt=""
+              />
+              <p class="convenience-description">
+                Мы понимаем, что сложные IT-системы могут тормозить развитие
+                бизнеса. Поэтому наши решения строятся на принципе простоты:
+                минимальные трудности — максимальная эффективность.
+              </p>
+            </div>
+
+            <div class="convenience-item">
+              <p class="convenience-title">
+                Как мы можем помочь вашему бизнесу?!
+              </p>
+              <img
+                class="convenience-image"
+                src="./assets/icons/handshake.svg"
+                alt=""
+              />
+              <p class="convenience-description">
+                Мы — команда профессионалов, которая знает, как создать
+                оптимальные IT-решения для бизнеса. Наш подход основан на
+                глубоком анализе потребностей и предложении технологий, которые
+                работают на ваш результат.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cases">
+        <div>
+          <h2 class="title">Кейсы</h2>
+
+          <div class="slider-container">
+            <img src="assets/icons/slide-arrow.svg" alt="" />
+            <div>
+              <img class="slide" src="assets/images/slide.png" alt="" />
+            </div>
+            <img
+              src="assets/icons/slide-arrow.svg"
+              class="slide-arrow"
+              alt=""
+            />
+          </div>
+          <button class="discuss-button cases-btn">обсудить проект</button>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2 class="title about-us-title">о нас в цифрах</h2>
+
+          <div class="statistics-box">
+            <div class="statistics">
+              <h3 class="numbers">2</h3>
+              <p class="statistics-text">года на рынке</p>
+            </div>
+
+            <div class="statistics">
+              <h3 class="numbers">15+</h3>
+              <p class="statistics-text">видов услуг</p>
+            </div>
+
+            <div class="statistics">
+              <h3 class="numbers">5k</h3>
+              <p class="statistics-text">клиентов</p>
+            </div>
+
+            <div class="statistics">
+              <h3 class="numbers">5</h3>
+              <p class="statistics-text">лет стаж</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team">
+        <div class="main-container-teammates">
+          <h2 style="margin-bottom: 49px" class="title">команда</h2>
+
+          <div class="carts-container">
+            <div class="cart">
+              <img
+                src="./assets/images/zalkar.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">Залкар кулматов</p>
+                <p class="role">CEO-Backend developer</p>
+              </div>
+            </div>
+
+            <div class="cart">
+              <img
+                src="./assets/images/kuma.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">токторов курманбек</p>
+                <p class="role">CEO-Backend developer</p>
+              </div>
+            </div>
+            <div class="cart">
+              <img
+                src="./assets/images/nurbolot.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">Акын</p>
+                <p class="role">CEO-Backend developer</p>
+              </div>
+            </div>
+            <div class="cart">
+              <img
+                src="./assets/images/bekbolot.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">Заирбеков бекболот</p>
+                <p class="role">Frontend-developer</p>
+              </div>
+            </div>
+            <div class="cart">
+              <img
+                src="./assets/images/aman.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">омурзаков аман</p>
+                <p class="role">CEO-Backend developer</p>
+              </div>
+            </div>
+            <div class="cart">
+              <img
+                src="./assets/images/bermet.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">Шералиева бермет</p>
+                <p class="role">Frontend-developer</p>
+              </div>
+            </div>
+
+            <div class="cart left-cart">
+              <img
+                src="./assets/images/medina.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">жапарова медина</p>
+                <p class="role">UX/UI designer</p>
+              </div>
+            </div>
+            <div class="cart left-cart">
+              <img
+                src="./assets/images/aman.png"
+                class="teammate-image"
+                alt=""
+              />
+
+              <div class="info-container">
+                <p class="name">Османов Темурбек</p>
+                <p class="role">CEO-Backend developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sixth-block-container">
+          <div class="images-container">
+            <img
+              class="honeycomb-big"
+              src="./assets/images/light-honeycomb.png"
+              alt="Honeycomb"
+            />
+
+            <img
+              class="phone-call"
+              src="./assets/images/phone-call .png"
+              alt="Phone Call"
+            />
+          </div>
+
+          <div class="form-container">
+            <div class="form-header">
+              <h3 class="form-title">ОСТАВЬТЕ ЗАЯВКУ</h3>
+              <p class="form-description">
+                Заполните и оставьте заявку и наши специалисты свяжутся с вами!
+              </p>
+            </div>
+
+            <form class="application-form" action="">
+              <input
+                class="form-input"
+                type="text"
+                placeholder="Имя:"
+                required
+              />
+              <input
+                class="form-input"
+                type="text"
+                placeholder="Телефон:"
+                required
+              />
+              <input
+                class="form-input"
+                type="email"
+                placeholder="E-mail address:"
+                required
+              />
+              <button class="submit-button" type="submit">отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="contact-section">
+        <div class="contact-container">
+          <h2 class="title contacts-title">Контакты</h2>
+
+          <div class="contact-info">
+            <div class="address">
+              <p class="address-label">Наш адрес:</p>
+              <p class="address-details">Лермонтова 2</p>
+            </div>
+
+            <div class="address">
+              <p class="address-label">Наш имеи</p>
+              <p class="address-details">bigbee.su@gmail.com</p>
+            </div>
+
+            <div class="address">
+              <p class="address-label">Наши контакты</p>
+              <p class="address-details">0777 775 778</p>
+            </div>
+
+            <div class="address">
+              <p class="address-label">Мы в сети</p>
+              <div style="display: flex; gap: 20px" class="address-details">
+                <img src="./assets/icons/instagram.svg" alt="" />
+                <img src="./assets/icons/whatsap.svg" alt="" />
+                <img src="./assets/icons/telegramm.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="./assets/images/white-honeycomb.png" alt="" />
+
+      <img
+        src="./assets/images/white-honeycomb.png"
+        class="mobile-honeycumb"
+        alt=""
+      />
+
+      <div class="main-footer-container">
+        <div class="footer-first-part">
+          <img src="./assets/icons/black-icon-begbee.svg" alt="" />
+
+          <div class="footer-navigation">
+            <div class="bermet">
+              <p class="footer-nav-part">разделы сайта</p>
+
+              <nav class="footer-nav">
+                <a href="">О нас</a>
+                <a href="">Кейсы</a>
+
+                <a href="">Мы в цифрах</a>
+                <a href="">Команда</a>
+                <a href="">Контакты</a>
+              </nav>
+            </div>
+
+            <div class="footer-nav-second">
+              <div class="bermet">
+                <p class="footer-nav-part">наш адрес</p>
+
+                <nav class="footer-nav">
+                  <a href=""
+                    >г.Бишкек <br />
+                    Лермонтова 2</a
+                  >
+                </nav>
+              </div>
+
+              <div class="bermet">
+                <p class="footer-nav-part">Контакты</p>
+
+                <nav class="footer-nav">
+                  <a href="">+7 708 565 01 33</a>
+                  <a href="">antkgdesign@gmail.com</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="last-block-footer">
+          <h2 class="big-text">big bee-бизнес платформа</h2>
+
+          <div class="last-block">
+            <p>Политика конфиденциальности</p>
+            <p>All rights reserved © 2024 ANT GROUP</p>
+          </div>
+        </div>
+      </div>
+
+      <img src="./assets/images/white-honeycomb.png" alt="" />
+    </footer>
+  </body>
+</html>

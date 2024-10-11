@@ -69,6 +69,10 @@ main {
   flex-direction: column;
 }
 
+.project-title-mobile {
+  display: none;
+}
+
 .project-info {
   width: 100%;
   display: flex;
@@ -114,6 +118,7 @@ main {
   text-transform: uppercase;
   /* width: 1360px; */
   width: 81em;
+  color: black;
 }
 
 .discuss-button:hover {

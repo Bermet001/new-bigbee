@@ -488,6 +488,11 @@ section {
   display: flex;
   gap: 20px;
 }
+.address > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
 
 .address-label {
   font-family: "Geometria" sans-serif;
@@ -585,6 +590,7 @@ footer > img {
   text-align: left;
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .bermet {
@@ -680,6 +686,7 @@ footer > img {
   position: absolute;
   z-index: 10;
   top: 380px;
+  cursor: pointer;
 }
 
 .contacts-title {

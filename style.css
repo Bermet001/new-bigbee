@@ -13,6 +13,10 @@
   box-sizing: border-box;
   font-family: "Geometria";
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 header {
   padding: 5px 100px;
@@ -671,7 +675,7 @@ footer > img {
 .cases-btn {
   position: static;
   margin-top: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 #cases {
@@ -679,29 +683,6 @@ footer > img {
   flex-direction: column;
   align-items: center;
 }
-
-/* .slide {
-  width: 1200px;
-} */
-
-/* .slide-arrow {
-  transform: rotate(180deg);
-  /* left: -26px; */
-/* } */
-
-/* .slider-container { */
-/* display: flex; */
-/* position: relative; */
-/* } */
-
-/* .slider-container > img:first-child { */
-/* left: 26px; */
-/* } */
-
-/* .slider-container > img { */
-/* z-index: 10; */
-/* cursor: /pointer; */
-/* } */
 
 .contacts-title {
   margin-bottom: 32px;
@@ -718,9 +699,9 @@ footer > img {
 
 /* slider */
 .slider {
-  width: 1300px;
+  width: 1150px;
   max-width: 100vw;
-  height: 700px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -735,7 +716,7 @@ footer > img {
   transition: 1s;
 }
 .slider .list img {
-  width: 1240px;
+  width: 1150px;
   max-width: 100vw;
   height: 100%;
   object-fit: cover;
@@ -743,8 +724,7 @@ footer > img {
 .slider .buttons {
   position: absolute;
   top: 45%;
-  left: 5%;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }

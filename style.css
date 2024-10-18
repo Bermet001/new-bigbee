@@ -769,7 +769,7 @@ footer > img {
     height: 400px;
   }
 }
-
+/* 
 @media screen and (max-width: 450px) {
   .slider {
     width: 400px;
@@ -778,4 +778,4 @@ footer > img {
   .slider .list img {
     width: 350px;
   }
-}
+} */

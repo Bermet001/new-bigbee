@@ -353,6 +353,50 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .project-title {
+    margin-top: 30px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .bermet {
+    width: 153px;
+  }
+
+  .welcome-title {
+    width: 100%;
+  }
+
+  .convenience-item {
+    width: 240px;
+  }
+
+  .convenience-description {
+    font-size: 12px;
+    height: 130px;
+  }
+
+  .convenience-image {
+    width: 230px;
+    height: 250px;
+  }
+
+  .slider .list img {
+    width: 600px;
+    height: 339px;
+  }
+
+  .slider {
+    width: 550px;
+  }
+
+  .footer-navigation {
+    gap: 23px;
+  }
+}
+
 @media (min-width: 0) and (max-width: 500px) {
   .mobile-burger {
     display: block;
@@ -402,6 +446,9 @@
     padding: 20px 20px 0px 20px;
   }
 
+  section {
+    justify-content: normal;
+  }
   main {
     padding: 0 20px;
     padding-top: 120px;
@@ -411,9 +458,12 @@
     display: none;
   }
 
+  .slider .buttons img {
+    width: 35px;
+  }
+
   .discuss-button {
     position: static;
-    width: 353px;
     height: 36.62px;
     margin-top: 20px;
     border-radius: 6.1px;
@@ -458,6 +508,12 @@
   .business-convenience {
     flex-direction: column;
     margin-top: 33px;
+  }
+
+  .convenience-description {
+    font-size: 17px;
+    line-height: 25.36px;
+    height: 100%;
   }
 
   .advantages-container {
@@ -763,5 +819,43 @@
   }
   .mobile-honeycumb {
     left: 170px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 380px) {
+  .slider .list img {
+    width: 330px;
+  }
+
+  .slider {
+    width: 330px;
+    min-width: 330px;
+  }
+
+  .cases-btn {
+    width: 98%;
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .form-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .statistics {
+    width: 150px;
+  }
+
+  .name {
+    right: 7px;
+  }
+
+  .form-header {
+    width: 100%;
+  }
+
+  .project-description {
+    width: 100%;
   }
 }

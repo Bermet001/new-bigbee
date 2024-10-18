@@ -748,12 +748,12 @@
 
   .slider {
     width: 100%;
-    min-width: 400px;
+    min-width: 360px;
     height: 200px;
   }
 
   .slider .list img {
-    width: auto;
+    width: 350px;
     height: auto;
     min-width: auto;
   }
@@ -822,7 +822,7 @@
   }
 }
 
-@media (min-width: 0) and (max-width: 380px) {
+@media (min-width: 0) and (max-width: 390px) {
   .slider .list img {
     width: 330px;
   }
@@ -857,5 +857,17 @@
 
   .project-description {
     width: 100%;
+  }
+
+  .cart {
+    width: 335px;
+  }
+
+  .teammate-image {
+    width: 320px;
+  }
+
+  .address {
+    width: 320px;
   }
 }
